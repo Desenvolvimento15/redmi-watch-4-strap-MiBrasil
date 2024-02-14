@@ -116,7 +116,6 @@ width: 19rem;
 
 /************************ Grid ***********************/
 
-
 .grid-img-strap {
 box-sizing: border-box;
 display: flex;
@@ -126,7 +125,6 @@ align-items: center;
 justify-content: center;
 gap: 4rem;
 }
-
 
 /********************** Slideshow ********************/
 
