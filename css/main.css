@@ -37,7 +37,7 @@ margin-left: -15px;
 :root{
 --background-white: #ffff;
 --background-black: #111;
---background-silver: #e2e1e6;
+--background-silver: #e7e6eb;
 
 --text-white: #fff;
 --text-preto: #000;
@@ -57,20 +57,8 @@ margin-left: -15px;
 
 .img-fluid {max-width: 100%; height: auto;}
 
-
 .img-grid-mob{display: none;}
 .img-grid-desk{display: block;}
-
-
-
-.subtitle-xioami{
-text-align: center;
-font-size: 1.5rem;
-font-weight: 0;
-font-family: "Camphor Pro", sans-serif;
-position: relative;
-overflow-wrap: break-word;
-}
 
 .subtitle-left {
 text-align: left;
@@ -99,7 +87,6 @@ line-height: 1.3;
 overflow-wrap: break-word;
 }
 
-
 .p-left {
 font-size: 1.1rem;
 text-align: left;
@@ -127,75 +114,16 @@ overflow-wrap: break-word;
 width: 19rem;
 }
 
-.icons-title {
-font-size: 1.3rem;
-font-family: "Camphor Pro", sans-serif;
-font-weight: 700;
-color: var(--text-preto);
-line-height: 1.2;
-text-align: center;
-}
-
-.icons-title-mp {
-font-size: 2rem;
-font-family: "Camphor Pro", sans-serif;
-font-weight: 700;
-color: var(--text-preto);
-line-height: 2;
-text-align: center;
-margin-bottom: -0.5rem;
-}
-
-.icons-tex {
-font-size: 1rem;
-font-family: "Camphor Pro", sans-serif;
-font-weight: 400;
-line-height: 1.2;
-text-align: center;
-}
-
-.icons-size {
-width: 4rem;
-margin: 1rem;
-}
-
-.icons-img-text {
-display: flex;
-flex-direction: column;
-margin: 1rem;
-}
-
-
 /************************ Grid ***********************/
 
-.grid-desk{
-align-items: flex-end;
-box-sizing: border-box;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-margin-left: -0.26172rem;
-z-index: 2;
-}
 
-.grid-desk-1{
-align-items: flex-start;
+.grid-img-strap {
 box-sizing: border-box;
 display: flex;
 flex-direction: row;
-justify-content: flex-start;
-margin-top: 0.11328rem;
-width: -2.917969999999997rem;
-}
-
-.grid-img-text {
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
 align-content: center;
-justify-content: center;
 align-items: center;
-gap: 4rem;
+justify-content: center;
 }
 
 
@@ -259,14 +187,8 @@ border-color: #292929;
 }
 
 .spacing{padding: 3rem;}
-.spacing-galery{padding: 12rem;}
 
-.icons-img-end{
-width: 40rem;
-margin: 0 auto;
-display: block;
-margin-top: 5rem;
-}
+
 
 /************************* Mobile ***********************/
 
@@ -297,45 +219,7 @@ align-items: center;
 align-content: center;
 }
 
-.grid-two-blocos{
-display: flex;
-flex-wrap: nowrap;
-align-content: center;
-justify-content: center;
-align-items: center;
-width: 12rem;
-gap: 1rem;
-}
-
-.grid-bloco-two{
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-align-content: center;
-justify-content: center;
-align-items: center;
-gap: 1rem;    
-}
-
 /**************************TxT******************************/
-
-.title-xioami{
-text-align: center;
-font-size: 2.2rem;
-font-weight: 600;
-font-family: "Camphor Pro", sans-serif;
-position: relative;
-overflow-wrap: break-word;
-}
-
-.subtitle-xioami{
-text-align: center;
-font-size: 1.3rem;
-font-weight: 300;
-font-family: "Camphor Pro", sans-serif;
-position: relative;
-overflow-wrap: break-word;
-}
 
 .subtitle-left {
 text-align: left;
@@ -370,7 +254,6 @@ font-family: "Camphor Pro", sans-serif;
 position: relative;
 overflow-wrap: break-word;
 }
-
 
 .p-notas {
 text-align: left;
