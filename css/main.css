@@ -135,6 +135,7 @@ width: 19rem;
 }
 
 
+
 /************************ Grid ***********************/
 
 .grid-img-strap {
@@ -149,62 +150,61 @@ gap: 1.5rem;
 
 /********************** Slideshow ********************/
 
-.slick-slider {
-position: relative;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
--webkit-tap-highlight-color: transparent;
-}
+#slider {
+    width: 100%;
+    overflow: hidden;
+  }
 
-.slick-list, .slick-slider button{overflow: hidden}
-.slick-list.dragging {cursor: ew-resize}
-.slick-slide {
-display: none;
-float: left;
-height: 100%;
-min-height: 1px;
-z-index: 10 !important;
-}
+  #slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
 
-.slick-slide img{width:100%}
-.slick-slide.dragging img {pointer-events: none}
-.slick-initialized .slick-slide {display: block}
-.slick-slider button{
-cursor: pointer; 
-outline: 0;
-text-indent: 100px;
-transition: all .4s ease;
-}
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
 
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
 
-/********************* Pagination ***********************/
-.slick-dots {
-margin: 2rem 0 0;
-padding: 0;
-text-align: center;
-margin-bottom: 1rem;
-}
+  #dots-container {
+    text-align: center;
+    margin-top: 20px;
+  }
 
-.slick-dots li{
-display: inline-block;
-margin: 0 5px;
-}
+  .dot {
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+    border-radius: 70%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
 
-.slick-dots button {
-background: #828282;
-border-radius: 15px;
-border: 1px solid #828282;
-height: 20px;
-width: 20px;
-}
+  .dot:nth-child(1) {
+    background: url(../media/PastelPurple-in.png); /* Cor do dot para o Item 01 */
+  }
 
-.slick-active button{
-background: #292929; 
-border-color: #292929;
-}
+  .dot:nth-child(2) {
+    background: url(../media/DarkCyan-in.png); /* Cor do dot para o Item 02 */
+  }
+
+  .dot:nth-child(3) {
+    background: url(../media/MintGreen-in.png); /* Cor do dot para o Item 03 */
+  }
+
+  .dot.active {
+   border: #000 solid;/* Cor do dot ativo */
+
+  }
+
+  #slide-text {
+    text-align: center;
+    margin-top: 20px;
+  }
 
 .spacing{padding: 3rem;}
 
@@ -214,19 +214,17 @@ border-color: #292929;
 
 @media only screen and (max-width: 920px) {
 
-    img{
-        border: 0;
-    }
+img{border: 0;}
 
 
 .logo {
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: -45rem;
-    width: 70%;
+position: absolute;
+margin: auto;
+left: 0;
+right: 0;
+bottom: 0;
+top: -45rem;
+width: 70%;
 }
 
 .row-s101 {padding: 0 0px;}
@@ -245,13 +243,13 @@ max-width: 100%;
 
 /********************** Grind Mobile *******************/
 .grid-img-strap {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-content: center;
+align-items: center;
+justify-content: center;
+gap: 1.5rem;
 }
 
 /**************************TxT******************************/
