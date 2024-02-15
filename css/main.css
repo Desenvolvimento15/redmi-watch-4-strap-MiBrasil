@@ -127,7 +127,7 @@ width: 19rem;
 }
 
 .img-with{width: 40%;}
-#text-item{font-weight: bold;}
+#text-item{font-weight: bold; font-size: 1.7rem;}
 /************************ Grid ***********************/
 
 .grid-img-strap {
@@ -189,7 +189,7 @@ gap: 1.5rem;
   }
 
   .dot.active {
-   border: #000 solid;/* Cor do dot ativo */
+   border: #000 solid 0.08rem;/* Cor do dot ativo */
 
   }
 
