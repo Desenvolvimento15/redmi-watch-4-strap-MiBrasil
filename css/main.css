@@ -37,13 +37,17 @@ margin-left: -15px;
 :root{
 --background-white: #ffff;
 --background-black: #111;
---background-silver: #e7e6eb;
+--background-silver: #e9e8ed;
 
 --text-white: #fff;
 --text-preto: #000;
 }
 
 div{
+    border: 0;
+}
+
+img{
     border: 0;
 }
 .txt-branco {color: var(--text-white);}
@@ -126,6 +130,11 @@ overflow-wrap: break-word;
 width: 19rem;
 }
 
+.img-with{
+    width: 40%;
+}
+
+
 /************************ Grid ***********************/
 
 .grid-img-strap {
@@ -135,7 +144,7 @@ flex-direction: row;
 align-content: center;
 align-items: center;
 justify-content: center;
-gap: 4rem;
+gap: 1.5rem;
 }
 
 /********************** Slideshow ********************/
@@ -205,9 +214,20 @@ border-color: #292929;
 
 @media only screen and (max-width: 920px) {
 
-.img-fluid-icons {width: 100%; height: auto;}
+    img{
+        border: 0;
+    }
 
-.icons-img{width: 6rem;}
+
+.logo {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -45rem;
+    width: 70%;
+}
 
 .row-s101 {padding: 0 0px;}
 .spacing{padding: 1rem;}
@@ -224,10 +244,14 @@ max-width: 100%;
 }
 
 /********************** Grind Mobile *******************/
-.grid-xiaomi-text-info {
-display: flex;
-align-items: center;
-align-content: center;
+.grid-img-strap {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 /**************************TxT******************************/
@@ -272,6 +296,9 @@ font-size: 0.9rem;
 padding: 0.5rem;
 }
 
+.img-with{
+    width: 85%;
+}
 
 
 }
