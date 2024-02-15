@@ -43,7 +43,9 @@ margin-left: -15px;
 --text-preto: #000;
 }
 
-
+div{
+    border: 0;
+}
 .txt-branco {color: var(--text-white);}
 .txt-preto{color: var(--text-preto)}
 
@@ -59,6 +61,16 @@ margin-left: -15px;
 
 .img-grid-mob{display: none;}
 .img-grid-desk{display: block;}
+
+.logo{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right:0;
+    bottom: 0;
+    top: -40rem;
+    width: 30%;
+}
 
 .subtitle-left {
 text-align: left;
