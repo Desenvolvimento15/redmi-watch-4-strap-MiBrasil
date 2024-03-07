@@ -33,9 +33,7 @@ margin-right: -15px;
 margin-left: -15px;
 }
 
-.title{
-  font-weight: 500;
-}
+
 :root{
 --background-white: #ffff;
 --background-black: #111;
@@ -131,6 +129,12 @@ position: relative;
 line-height: 1.3;
 overflow-wrap: break-word;
 width: 19rem;
+}
+
+.title{
+  
+  font-family: 'CamphorPro', sans-serif;
+  font-weight: 700;
 }
 
 .img-with{width: 40%;}
