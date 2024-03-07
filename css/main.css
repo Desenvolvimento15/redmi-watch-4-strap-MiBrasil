@@ -180,6 +180,11 @@ gap: 1.5rem;
     text-align: center;
     margin-top: 20px;
   }
+  
+  #dots-container-desk {
+    text-align: center;
+    margin-top: 20px;
+  }
 
   .dot {
     height: 30px;
@@ -211,6 +216,14 @@ gap: 1.5rem;
     text-align: center;
     margin-top: 20px;
   }
+
+  #slide-text-desk {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+
 
   .text-position{position: relative;}
   .text-overlay {
