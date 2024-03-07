@@ -220,7 +220,7 @@ gap: 1.5rem;
     left: 11rem;
     width: 18rem;
   }
-
+  .spacing{padding: 3rem;}
 /********************** Mobile ***********************/
 
 @media only screen and (max-width: 920px) {
