@@ -205,31 +205,28 @@ gap: 1.5rem;
     margin-top: 20px;
   }
 
-.spacing{padding: 3rem;}
-
-.text-position{position: relative;}
-
-
-.text-overlay {
-  position: absolute;
-  top: 7rem;
-  left: 25rem;
-  width: 22rem;
-}
-
-.text-position-slide{position: relative; width: 100%;}
-.text-overlay-slide {
-  position: absolute;
-  bottom: 2rem;
-  left: 11rem;
-  width: 18rem;
-}
+  .text-position{position: relative;}
+  .text-overlay {
+    position: absolute;
+    top: 7rem;
+    left: 25rem;
+    width: 22rem;
+  }
+  
+  .text-position-slide{position: relative; width: 100%;}
+  .text-overlay-slide {
+    position: absolute;
+    bottom: 2rem;
+    left: 11rem;
+    width: 18rem;
+  }
 
 /********************** Mobile ***********************/
 
 @media only screen and (max-width: 920px) {
 
 img{border: 0;}
+
 
 .text-position{position: relative;}
 
@@ -238,6 +235,7 @@ img{border: 0;}
   top: 3rem;
   left: 0;
 }
+
 
 .logo {
 position: absolute;
