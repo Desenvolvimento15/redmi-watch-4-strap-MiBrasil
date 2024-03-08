@@ -37,12 +37,16 @@ margin-left: -15px;
 :root{
 --background-white: #ffff;
 --background-black: #111;
---background-silver: #e6e5eb;
---background-cinza: #cfceca;
-
+--background-silver: #e9e8ed;
 --text-white: #fff;
 --text-preto: #000;
 }
+
+.background-silver{ 
+background: linear-gradient(47deg, rgba(212, 211, 207, 1) 0%, rgba(193, 192, 188, 1) 100%);
+}
+
+
 
 div{border: 0;}
 
