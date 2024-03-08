@@ -38,6 +38,7 @@ margin-left: -15px;
 --background-white: #ffff;
 --background-black: #111;
 --background-silver: #e6e5eb;
+--background-cinza: #dad9d7;
 
 --text-white: #fff;
 --text-preto: #000;
@@ -52,6 +53,7 @@ img{border: 0;}
 .boxcolor-white{background-color: var(--background-white);}
 .boxcolor-silver{background-color: var(--background-silver);}
 .boxcolor-black{background-color: var(--background-black);}
+.boxcolor-cinza{background-color: var(--background-cinza);}
 
 
 @font-face {
