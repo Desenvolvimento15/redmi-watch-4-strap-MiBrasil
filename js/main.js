@@ -35,6 +35,10 @@ $(document).ready(function() {
   autoPlay();
 });
 
+
+
+
+
 $(document).ready(function() {
   const $slides = $('#slides');
   const $dotsContainer = $('#dots-container-desk');
@@ -48,14 +52,14 @@ $(document).ready(function() {
     $slides.css('transform', `translateX(${-index * 100}%)`);
     $textItem.text(slideTexts[index]);
 
-    $('.dot').each(function(i, dot) {
+    $('.dot-desk').each(function(i, dot) {
       $(dot).toggleClass('active', i === index);
     });
   }
 
   function createDots() {
     for (let i = 0; i < slideTexts.length; i++) {
-      const $dot = $('<span>').addClass('dot').on('click', () => showSlide(i));
+      const $dot = $('<span>').addClass('dot-desk').on('click', () => showSlide(i));
       $dotsContainer.append($dot);
     }
   }
